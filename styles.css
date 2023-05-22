@@ -4,7 +4,7 @@ body {
     color: #004600;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.8;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     word-spacing: 3px;
 }
@@ -110,7 +110,7 @@ section code {
 
 }
 
-@media only screen and (max-width: 769px) {
+@media (max-width: 769px) {
     #navbar {
         width: 100%;
         max-height: 68%;
@@ -130,9 +130,9 @@ section code {
 
     #main-doc {
         position: relative;
-        top: 350px;
+        top: 330px;
         left: 0;
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .main-section {
