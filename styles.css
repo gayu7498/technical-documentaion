@@ -130,13 +130,13 @@ section code {
 
     #main-doc {
         position: relative;
-        top: 320px;
+        top: 340px;
         left: 0;
         margin-top: 50px;
     }
 
     .main-section {
-        margin-left: 0
+        margin-left: 10px
     }
 
     article {
@@ -147,7 +147,9 @@ section code {
     }
 
     article li {
-        margin: 10px;
+        margin: 0px;
+         margin-bottom:10px;
+    }
     }
 
     article code {
@@ -155,6 +157,21 @@ section code {
         letter-spacing: 0.4px;
         margin: 15px;
 
+    }
+}
+@media (max-width: 460px) {
+    body{
+        font-size:0.93rem;
+    }
+    #navbar ul {
+        height: 300px;
+
+    }
+    .nav-link{
+        font-size:0.9rem;
+    }
+   #main-doc {
+        top: 320px;
     }
 }
 
