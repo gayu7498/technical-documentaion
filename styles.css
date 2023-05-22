@@ -156,6 +156,7 @@ section code {
         margin: 15px;
 
     }
+}
 @media (max-height: 660px) {
     body{
         font-size:0.9rem;
@@ -167,12 +168,4 @@ section code {
     }
 }
 
-}
-@media (max-width: 460px) {
-    body{
-        font-size:0.8rem;
-    }
-    #main-doc{
-        top:300px;
-    }
-}
+
