@@ -156,7 +156,16 @@ section code {
         margin: 15px;
 
     }
-
+@media (max-height: 660px) {
+    body{
+        font-size:0.9rem;
+    }
+    #main-doc{
+        position: relative;
+        top:280px;
+       
+    }
+}
 
 }
 @media (max-width: 460px) {
